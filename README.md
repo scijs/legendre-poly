@@ -25,6 +25,7 @@ Install using [npm](https://www.npmjs.com/):
 
     npm install legendre-poly
 
+# API
 #### `require("legendre-poly")(n)`
 Returns the coefficients of the nth Legendre polynomial in ascending degree.
 
