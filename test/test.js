@@ -1,6 +1,6 @@
 var legendre = require("../legendre.js")
 
-require("tap").test("LegendreP", function(t) {
+require("tape")("LegendreP", function(t) {
 
   function e(a, b) {
     t.equals(a.join(","), b.join(","))

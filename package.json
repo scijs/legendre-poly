@@ -1,6 +1,6 @@
 {
   "name": "legendre-poly",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Coefficients of Legendre polynomials",
   "main": "legendre.js",
   "directories": {
@@ -8,21 +8,25 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.4.2"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/mikolalysenko/legendre-poly.git"
   },
   "keywords": [
+    "scijs",
     "legendre",
     "polynomial"
   ],
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "b4d8eb22851135a426e71257f160d6f1fa85ec21"
+  "gitHead": "b4d8eb22851135a426e71257f160d6f1fa85ec21",
+  "bugs": {
+    "url": "https://github.com/scijs/legendre-poly/issues"
+  }
 }
